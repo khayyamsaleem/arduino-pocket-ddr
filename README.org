@@ -1,0 +1,5 @@
+#+TITLE: Arduino Pocket DDR
+#+SUBTITLE: HAR470 -- Interactive Installations
+
+Pocket DDR for Project #1 in Stevens HAR470 -- Interactive Installations
+[[./demo.jpg]]
