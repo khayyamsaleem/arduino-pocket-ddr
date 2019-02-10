@@ -2,4 +2,5 @@
 #+SUBTITLE: HAR470 -- Interactive Installations
 
 Pocket DDR for Project #1 in Stevens HAR470 -- Interactive Installations
+#+ATTR_HTML: :width 250px
 [[./demo.jpg]]
