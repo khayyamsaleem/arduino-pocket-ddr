@@ -3,4 +3,10 @@
 
 Pocket DDR for Project #1 in Stevens HAR470 -- Interactive Installations
 
+**Note**: A print function has been left in the source for the sake of debugging if necessary, but it is not called anywhere in the main loop.
+
+* Prototype
 #+html: <p><img src="./demo.jpg" width="400px" /></p>
+
+* Final
+#+html: <p><img src="./final.jpg" width="400px" /></p>

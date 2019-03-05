@@ -131,23 +131,11 @@ void loop(){
       }
     }
     setLevel(i);
-    Serial.print("CURRENT LEVEL (");
-    Serial.print(i);
-    Serial.print("): ");
-    printArray(&currentLevel[0], 3);
-    lightLEDs(&gameState[0]);
-    Serial.print("GAME STATE: ");
-    printArray(&gameState[0], 4);
-    getButtonState(&currButtonState[0], levelTimes[i]);
-    Serial.print("BUTTON STATE: ");
-    printArray(&currButtonState[0], 4);
     if(!diffStates(&gameState[0], &currButtonState[0])){
-      Serial.println("WON");
     } else {
       digitalWrite(loseLED, HIGH);
       clearLEDs(&gameState[0]);
       setLevel(0);
-      Serial.println("LOST");
       delay(5000);
       digitalWrite(loseLED, LOW);
       for(int j = 0; j < 10; j++){

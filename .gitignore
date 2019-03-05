@@ -159,3 +159,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/vim,code,emacs,linux,macos,windows,platformio,visualstudiocode
+*.icloud
